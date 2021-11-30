@@ -1,0 +1,451 @@
+#intro {
+  width: 100%;
+  height: 100%;
+}
+
+#aboutme {
+  width: 100%;
+  height: 100%;
+}
+
+#whatido {
+  width: 100%;
+  height: 100%;
+}
+
+#myworks {
+  height: 100%;
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+.top-bar {
+  z-index: 2222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: 50px;
+}
+
+.top-bar .menu {
+  color: black;
+  margin-right: 50%;
+}
+
+.top-bar a {
+  text-decoration: none;
+}
+
+.top-bar ul {
+  margin-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 3%;
+}
+
+.top-bar ul li {
+  color: black;
+  list-style: none;
+}
+
+#intro .intro-img {
+  height: 800px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/intro-bg.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/intro-bg.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#intro .intro-img .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#intro .intro-img .title .text {
+  margin-top: 20%;
+}
+
+#intro .intro-img .title .text .CGD {
+  margin-bottom: 40px;
+  font-size: 75px;
+}
+
+#intro .intro-img .title p {
+  font-size: 35px;
+  color: white;
+}
+
+#intro .intro-img .title a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 12px;
+}
+
+#intro .intro-img .title a:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#aboutme .my-image {
+  margin-left: 100px;
+}
+
+#aboutme .title {
+  margin-top: 35px;
+  text-align: center;
+}
+
+#aboutme .title .inline {
+  color: grey;
+  font-size: 30px;
+  display: inline;
+}
+
+#aboutme .title h2 {
+  font-size: 35px;
+  display: inline;
+}
+
+#aboutme .title h2::after {
+  display: block;
+  content: "";
+  content: " ";
+  margin-top: 20px;
+  margin-left: 47%;
+  width: 60px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#3c3c3c), to(#3c3c3c));
+  background-image: linear-gradient(to left, #3c3c3c, #3c3c3c);
+}
+
+#aboutme .title p {
+  color: gray;
+}
+
+#aboutme .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#aboutme .container .bio .link a {
+  text-decoration: none;
+}
+
+#aboutme .container .bio .link span {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#aboutme .container .bio .link span:hover {
+  background-color: grey;
+}
+
+#aboutme .container .bio .text {
+  margin-top: 20px;
+  margin-bottom: 45px;
+  font-size: 16px;
+  line-height: 1.9;
+  color: grey;
+  width: 70%;
+}
+
+#aboutme .container .bio h2 {
+  display: inline;
+}
+
+#aboutme .container .bio .inline2 {
+  display: inline;
+}
+
+#whatido .container {
+  margin-top: 100px;
+}
+
+#whatido .container .languages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#whatido .container .languages .language {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#whatido .container .languages .language h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#whatido .container .languages .language i {
+  color: grey;
+  font-size: 37px;
+}
+
+#whatido .container .languages .language p {
+  line-height: 1.7;
+  font-size: 15px;
+  color: grey;
+}
+
+#whatido .title {
+  margin-top: 35px;
+  text-align: center;
+}
+
+#whatido .title .inline {
+  color: grey;
+  font-size: 30px;
+  display: inline;
+}
+
+#whatido .title h2 {
+  font-size: 35px;
+  display: inline;
+}
+
+#whatido .title h2::after {
+  display: block;
+  content: "";
+  content: " ";
+  margin-top: 20px;
+  margin-left: 47%;
+  width: 60px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#3c3c3c), to(#3c3c3c));
+  background-image: linear-gradient(to left, #3c3c3c, #3c3c3c);
+}
+
+#whatido .title p {
+  color: gray;
+}
+
+#myworks .container {
+  margin-top: 150px;
+}
+
+#myworks .container .title {
+  margin-top: 35px;
+  text-align: center;
+}
+
+#myworks .container .title .inline {
+  color: grey;
+  font-size: 30px;
+  display: inline;
+}
+
+#myworks .container .title h2 {
+  font-size: 35px;
+  display: inline;
+}
+
+#myworks .container .title h2::after {
+  display: block;
+  content: "";
+  content: " ";
+  margin-top: 20px;
+  margin-left: 47%;
+  width: 60px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#3c3c3c), to(#3c3c3c));
+  background-image: linear-gradient(to left, #3c3c3c, #3c3c3c);
+}
+
+#myworks .container .title p {
+  color: gray;
+}
+
+#myworks .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+}
+
+#myworks .container ul li {
+  list-style: none;
+}
+
+#myworks .container ul li i {
+  display: block;
+  font-size: 29px;
+}
+
+#myworks .container .works {
+  margin-top: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#myworks .container .works img {
+  width: 95%;
+  height: 90%;
+}
+
+#contact .title {
+  margin-top: 35px;
+  text-align: center;
+}
+
+#contact .title .inline {
+  color: grey;
+  font-size: 30px;
+  display: inline;
+}
+
+#contact .title h2 {
+  font-size: 35px;
+  display: inline;
+}
+
+#contact .title h2::after {
+  display: block;
+  content: "";
+  content: " ";
+  margin-top: 20px;
+  margin-left: 47%;
+  width: 60px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#3c3c3c), to(#3c3c3c));
+  background-image: linear-gradient(to left, #3c3c3c, #3c3c3c);
+}
+
+#contact .title p {
+  color: gray;
+}
+
+#contact .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px 0px;
+}
+
+#contact .link {
+  margin-top: 70px;
+  text-align: center;
+}
+
+#contact .link a {
+  text-decoration: none;
+}
+
+#contact .link span {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contact .link span:hover {
+  background-color: grey;
+  color: white;
+}
+
+.footer-container {
+  margin-top: 100px;
+  padding-top: 50px;
+  background: #333;
+}
+
+.footer-container .last-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-container .last-title p {
+  color: white;
+  margin-top: 20px;
+}
+
+.footer-container .last-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.footer-container .social li {
+  list-style: none;
+  color: white;
+}
+
+.footer-container .last-item {
+  text-align: center;
+  margin-top: 38px;
+}
+/*# sourceMappingURL=style.css.map */
